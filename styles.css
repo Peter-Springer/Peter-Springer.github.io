@@ -1,6 +1,12 @@
-.header {
-  color: #f7484e;
-  background-color: #292929;
+body {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  color: #f7484e;
+  height: 10vh;
 }
