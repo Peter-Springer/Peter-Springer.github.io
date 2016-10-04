@@ -2,11 +2,49 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.header-container {
+  background-color: #292929;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #292929;
   color: #f7484e;
-  height: 10vh;
+  margin-left: auto;
+}
+
+.header {
+}
+
+/*.header-text {
+  margin-right: 20%;
+}*/
+
+
+.hexagon {
+	width: 40px;
+	height: 20px;
+	background: red;
+	position: relative;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid red;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red;
 }
