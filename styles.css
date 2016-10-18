@@ -23,15 +23,17 @@ body {
 .cards-container {
   display: flex;
   flex-direction: row;
-  height: 60vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
+  background-color: #d26618
 }
 
 .cards {
   height: 300px;
   width: 300px;
-  background-color: green;
+  background-color: white;
+  border: 5px solid #292929;
   margin: 20px;
 }
 
