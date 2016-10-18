@@ -9,16 +9,31 @@ body {
   justify-content: center;
   align-items: center;
   color: #f7484e;
-  margin-left: auto;
 }
 
 .header {
+  /*margin: auto;*/
 }
 
+/*put this tag in a component for hexagon*/
+/*<div className="hexagon"></div>*/
 /*.header-text {
   margin-right: 20%;
 }*/
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
 
+.cards {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  margin: 20px;
+}
 
 .hexagon {
 	width: 40px;
