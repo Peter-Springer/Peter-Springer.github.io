@@ -24,7 +24,7 @@ html {
 .header-nav {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: bold;
@@ -60,10 +60,39 @@ pre {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background-color: #292929;
   height: 10vh;
 }
 
+.footer-links {
+  height: 40px;
+  padding: 0 15px;
+}
+
+.header-contact {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    font-size: 20px;
+  }
+  pre {
+    font-size: 20px;
+    &:hover{
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+  .footer-links {
+    height: 55px;
+    margin: 10px;
+    &:hover{
+      height: 60px;
+      cursor: pointer;
+    }
+  }
+}
 /*.hexagon {
 	width: 40px;
 	height: 20px;
