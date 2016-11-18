@@ -9,6 +9,8 @@ html {
   align-items: center;
   color: #f7484e;
   width: 100%;
+  position: fixed;
+  border-bottom: 2px solid #eee6e1;
 }
 
 .header {
@@ -17,7 +19,7 @@ html {
  margin-left: 10px;
 }
 
-.header-end, .header-slash {
+.header-springer, .header-slash {
  color: #eee6e1;
 }
 
@@ -30,8 +32,10 @@ html {
   font-weight: bold;
 }
 
-pre {
-  font-size: 12px;
+a {
+  // font-size: 12px;
+  text-decoration: none;
+  color: #f7484e;
 }
 
 /*put this tag in a component for hexagon*/
@@ -39,15 +43,51 @@ pre {
 /*.header-text {
   margin-right: 20%;
 }*/
-.cards-container {
+#parallax {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
   background-color: blue;
+  background-position: 0 ,0;
 }
 
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background: linear-gradient(210deg, #b69a2a, #292929 50%);
+  background-color: #15446f;
+  // background-size: 400% 400%;
+  font-family: 'Roboto', sans-serif;
+  //
+  // -webkit-animation: AnimationName 30s ease infinite;
+  // animation: AnimationName 30s ease infinite;
+  //
+  // @-webkit-keyframes AnimationName {
+  //     0%{background-position:68% 0%}
+  //     50%{background-position:33% 100%}
+  //     100%{background-position:68% 0%}
+  // }
+  // @keyframes AnimationName {
+  //     0%{background-position:68% 0%}
+  //     50%{background-position:33% 100%}
+  //     100%{background-position:68% 0%}
+  // }
+  // color: #eee6e1;
+  color: white;
+}
+
+
+.about-paragraph {
+  width: 60%;
+  word-break: keep-all;
+  font-size: 50px;
+  line-height: 55px;
+  font-family: 'Architects Daughter', cursive;
+}
 .cards {
   height: 100px;
   width: 150px;
@@ -56,12 +96,13 @@ pre {
   margin: 10px;
 }
 
-.footer-container {
+#footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #292929;
   height: 10vh;
+  border-top: 2px solid #eee6e1;
 }
 
 .footer-links {
