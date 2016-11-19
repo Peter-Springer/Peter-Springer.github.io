@@ -78,16 +78,24 @@ a {
   // }
   // color: #eee6e1;
   color: white;
+  flex-direction: column;
 }
 
 
-.about-paragraph {
-  width: 60%;
-  word-break: keep-all;
-  font-size: 50px;
-  line-height: 55px;
-  font-family: 'Architects Daughter', cursive;
+.about-name {
+  font-size: 100px;
+  margin-bottom: 15px;
 }
+
+.about-description {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-resume {
+  font-size: 30px;
+}
+
 .cards {
   height: 100px;
   width: 150px;
