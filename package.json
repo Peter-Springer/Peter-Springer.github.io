@@ -46,6 +46,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "svg-url-loader": "^1.1.0"
+    "svg-url-loader": "^1.1.0",
+    "url-loader": "^0.5.7"
   }
 }
