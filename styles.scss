@@ -10,7 +10,6 @@ html {
   color: #f7484e;
   width: 100%;
   position: fixed;
-  // border-bottom: 2px solid #eee6e1;
 }
 
 .header {
@@ -45,11 +44,10 @@ a {
 #code {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: white;
-  background-position: 0 ,0;
 }
 
 #about {
@@ -61,17 +59,13 @@ a {
   font-family: 'Roboto', sans-serif;
   color: white;
   flex-direction: column;
-  // background-image: url("./img/sunrise.png");
-  // background-size: cover;
 }
 
 
 .about-name {
   font-size: 90px;
   margin-bottom: 15px;
-  // font-family: 'Roboto', sans-serif;
   font-family: 'Bungee Inline', cursive;
-  // color: black;
 }
 
 .about-description {
@@ -85,11 +79,9 @@ a {
 
 .resume-link {
   color: #0e2045;
-  // font-weight: bold;
   font-family: 'Bungee Inline', cursive;
   &:hover{
     font-size: 35px;
-    // cursor: pointer;
   }
 }
 
@@ -107,7 +99,6 @@ a {
   align-items: center;
   background-color: #292929;
   height: 10vh;
-  // border-top: 2px solid #eee6e1;
 }
 
 .footer-links {
