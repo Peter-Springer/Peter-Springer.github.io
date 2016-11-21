@@ -36,18 +36,13 @@ a {
   color: #f7484e;
 }
 
-/*put this tag in a component for hexagon*/
-/*<div className="hexagon"></div>*/
-/*.header-text {
-  margin-right: 20%;
-}*/
 #code {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
+  // display: flex;
+  // flex-direction: column;
+  // // height: 100vh;
+  // justify-content: center;
+  // align-items: center;
+  // background-color: white;
 }
 
 #about {
@@ -86,12 +81,18 @@ a {
 }
 
 .cards {
-  height: 200px;
-  width: 300px;
-  background-color: white;
-  border: 5px solid #292929;
-  margin: 10px;
+  // background-color: white;
+  border: 5px solid red;
+
+  margin: 0 auto;
+  display: block;
+  // margin: 10px;
 }
+
+// source {
+//   margin: 0;
+//   // display: block;
+// }
 
 #footer-container {
   display: flex;
@@ -130,31 +131,3 @@ a {
     }
   }
 }
-/*.hexagon {
-	width: 40px;
-	height: 20px;
-	background: red;
-	position: relative;
-}
-.hexagon:before {
-	content: "";
-	position: absolute;
-	top: -20px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid red;
-}
-.hexagon:after {
-	content: "";
-	position: absolute;
-	bottom: -20px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid red;
-}*/

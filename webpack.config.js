@@ -21,6 +21,10 @@ module.exports = {
       { test: /\.scss$/, loader: 'style!css!sass' },
       { test: /\.svg/, loader: 'svg-url-loader'},
       { test: /\.png$/, loader: "url-loader", query: { mimetype: "image/png" },
+      },
+      { test: /\.(jpe?g|png|gif|svg)$/i, loaders: [
+        'file?hash=sha512&digest=hex&name=[hash].[ext]',
+        'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false']
       }
     ],
   },
