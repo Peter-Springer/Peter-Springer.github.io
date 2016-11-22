@@ -1,4 +1,4 @@
-html {
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -9,11 +9,10 @@ html {
   align-items: center;
   color: #f7484e;
   width: 100%;
-  position: fixed;
 }
 
 .header {
- font-size: 12px;
+ font-size: 15px;
  font-weight: bold;
  margin-left: 10px;
 }
@@ -29,6 +28,7 @@ html {
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: bold;
+  font-size: 15px;
 }
 
 a {
@@ -36,11 +36,15 @@ a {
   color: #f7484e;
 }
 
-.code-section-description {
-  margin: 20px;
-  font-size: 36px;
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #6b849a;
   font-family: 'Roboto', sans-serif;
-  width: 72%;
+  color: white;
 }
 
 #code {
@@ -48,36 +52,33 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #d1d1d1;
 }
 
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #6b849a;
+.code-section-description {
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }
-
 
 .about-name {
-  font-size: 90px;
-  margin-bottom: 15px;
+  font-size: 48px;
+  margin-bottom: 10px;
   font-family: 'Bungee Inline', cursive;
 }
 
 .about-description {
-  font-size: 45px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .about-resume {
-  font-size: 30px;
+  font-size: 18px;
 }
 
-.resume-link {
+.body-links {
   color: #0e2045;
   font-family: 'Bungee Inline', cursive;
   &:hover{
@@ -86,10 +87,10 @@ a {
 }
 
 .cards {
-  border: 5px solid red;
-  height: 450px;
-  width: 700px;
-  margin: 20px;
+  border: 5px solid #292929;
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
 }
 
 
@@ -99,6 +100,11 @@ a {
   align-items: center;
   background-color: #292929;
   height: 10vh;
+  width: 100%;
+}
+
+.gif3 {
+  margin-bottom: 10px;
 }
 
 .footer-links {
@@ -114,6 +120,33 @@ a {
   .header {
     font-size: 20px;
   }
+
+  #about {
+    height: 100vh;
+  }
+
+  .about-name {
+    font-size: 120px;
+  }
+
+  .about-description {
+    font-size: 40px;
+  }
+
+  .about-resume {
+    font-size: 35px;
+  }
+
+  .code-section-description {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .cards {
+    height: 400px;
+    width: 600px;
+  }
+
   pre {
     font-size: 20px;
     &:hover{
@@ -121,6 +154,7 @@ a {
       cursor: pointer;
     }
   }
+
   .footer-links {
     height: 55px;
     margin: 10px;
