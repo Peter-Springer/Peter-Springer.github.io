@@ -8189,7 +8189,6 @@
 	var ReactDOM = __webpack_require__(336);
 	var reset = __webpack_require__(474);
 	var styles = __webpack_require__(478);
-	var parallax = __webpack_require__(480);
 
 
 	ReactDOM.render(React.createElement(_App2.default, null), document.getElementById('application'));
@@ -8214,9 +8213,9 @@
 
 	var _Header2 = _interopRequireDefault(_Header);
 
-	var _HeroCards = __webpack_require__(333);
+	var _Cards = __webpack_require__(333);
 
-	var _HeroCards2 = _interopRequireDefault(_HeroCards);
+	var _Cards2 = _interopRequireDefault(_Cards);
 
 	var _Footer = __webpack_require__(334);
 
@@ -8250,11 +8249,11 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        'section',
 	        null,
 	        _react2.default.createElement(_Header2.default, null),
 	        _react2.default.createElement(_About2.default, null),
-	        _react2.default.createElement(_HeroCards2.default, null),
+	        _react2.default.createElement(_Cards2.default, null),
 	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
@@ -12292,7 +12291,7 @@
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
+	        "section",
 	        { className: "header-container" },
 	        _react2.default.createElement(
 	          "h1",
@@ -12340,7 +12339,7 @@
 	            { className: "header-contact" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "#footer-container" },
+	              { href: "#contact" },
 	              " CONTACT"
 	            )
 	          )
@@ -12394,12 +12393,31 @@
 	        "section",
 	        { id: "code" },
 	        _react2.default.createElement(
-	          "article",
-	          { className: "cards" },
-	          _react2.default.createElement("img", { src: "http://g.recordit.co/ZVaWDnvtOX.gif" })
+	          "p",
+	          { className: "code-section-description" },
+	          "These are a few GIFs displaying some of the projects I've worked on. Please proceed to my",
+	          _react2.default.createElement(
+	            "a",
+	            { className: "body-links", href: "https://github.com/Peter-Springer" },
+	            " github "
+	          ),
+	          "to view additional projects."
 	        ),
-	        _react2.default.createElement("article", { className: "cards" }),
-	        _react2.default.createElement("article", { className: "cards" })
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://github.com/Peter-Springer/game-time" },
+	          _react2.default.createElement("img", { className: "cards", src: "../img/breakout.gif" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://github.com/Peter-Springer/Shoot-The-Breeze" },
+	          _react2.default.createElement("img", { className: "cards", src: "../img/chatapp.gif" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://github.com/Peter-Springer/pomodoro-app" },
+	          _react2.default.createElement("img", { className: "cards gif3", src: "../img/pomodoro.gif" })
+	        )
 	      );
 	    }
 	  }]);
@@ -12446,8 +12464,8 @@
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
-	        { id: "footer-container" },
+	        "section",
+	        { id: "contact" },
 	        _react2.default.createElement(
 	          "a",
 	          { href: "mailto:peterspringer829@gmail.com" },
@@ -12514,7 +12532,12 @@
 	        _react2.default.createElement(
 	          "h1",
 	          { className: "about-name" },
-	          "Front-end Developer"
+	          "Front-end"
+	        ),
+	        _react2.default.createElement(
+	          "h1",
+	          { className: "about-name" },
+	          "Developer"
 	        ),
 	        _react2.default.createElement(
 	          "h1",
@@ -12527,7 +12550,7 @@
 	          " Check out my resume",
 	          _react2.default.createElement(
 	            "a",
-	            { className: "resume-link", href: "https://resume.creddle.io/resume/91i1d3h8h5p" },
+	            { className: "body-links", href: "https://resume.creddle.io/resume/91i1d3h8h5p" },
 	            " HERE"
 	          )
 	        )
@@ -30095,8 +30118,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./node_modules/css-loader/index.js!./node_modules/sass-loader/index.js!./styles.scss", function() {
-				var newContent = require("!!./node_modules/css-loader/index.js!./node_modules/sass-loader/index.js!./styles.scss");
+			module.hot.accept("!!./node_modules/css-loader/index.js!./styles.css", function() {
+				var newContent = require("!!./node_modules/css-loader/index.js!./styles.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30114,30 +30137,10 @@
 
 
 	// module
-	exports.push([module.id, "html {\n  font-family: 'Roboto', sans-serif; }\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%;\n  position: fixed; }\n\n.header {\n  font-size: 12px;\n  font-weight: bold;\n  margin-left: 10px; }\n\n.header-springer, .header-slash {\n  color: #eee6e1; }\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold; }\n\na {\n  text-decoration: none;\n  color: #f7484e; }\n\n/*put this tag in a component for hexagon*/\n/*<div className=\"hexagon\"></div>*/\n/*.header-text {\n  margin-right: 20%;\n}*/\n#code {\n  display: flex;\n  flex-direction: column;\n  height: 100vh;\n  justify-content: center;\n  align-items: center;\n  background-color: white; }\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white;\n  flex-direction: column; }\n\n.about-name {\n  font-size: 90px;\n  margin-bottom: 15px;\n  font-family: 'Bungee Inline', cursive; }\n\n.about-description {\n  font-size: 45px;\n  margin-bottom: 20px; }\n\n.about-resume {\n  font-size: 30px; }\n\n.resume-link {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive; }\n  .resume-link:hover {\n    font-size: 35px; }\n\n.cards {\n  height: 200px;\n  width: 300px;\n  background-color: white;\n  border: 5px solid #292929;\n  margin: 10px; }\n\n#footer-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 10vh; }\n\n.footer-links {\n  height: 40px;\n  padding: 0 15px; }\n\n.header-contact {\n  margin-right: 10px; }\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px; }\n  pre {\n    font-size: 20px; }\n    pre:hover {\n      font-size: 25px;\n      cursor: pointer; }\n  .footer-links {\n    height: 55px;\n    margin: 10px; }\n    .footer-links:hover {\n      height: 60px;\n      cursor: pointer; } }\n\n/*.hexagon {\n\twidth: 40px;\n\theight: 20px;\n\tbackground: red;\n\tposition: relative;\n}\n.hexagon:before {\n\tcontent: \"\";\n\tposition: absolute;\n\ttop: -20px;\n\tleft: 0;\n\twidth: 0;\n\theight: 0;\n\tborder-left: 20px solid transparent;\n\tborder-right: 20px solid transparent;\n\tborder-bottom: 20px solid red;\n}\n.hexagon:after {\n\tcontent: \"\";\n\tposition: absolute;\n\tbottom: -20px;\n\tleft: 0;\n\twidth: 0;\n\theight: 0;\n\tborder-left: 20px solid transparent;\n\tborder-right: 20px solid transparent;\n\tborder-top: 20px solid red;\n}*/\n", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif;\n}\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%;\n}\n\n.header {\n font-size: 15px;\n font-weight: bold;\n margin-left: 10px;\n}\n\n.header-springer, .header-slash {\n color: #eee6e1;\n}\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold;\n  font-size: 15px;\n}\n\na {\n  text-decoration: none;\n  color: #f7484e;\n}\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 70vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white;\n}\n\n#code {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: #d1d1d1;\n}\n\n.code-section-description {\n  font-size: 16px;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  margin-top: 10px;\n  font-weight: bold;\n}\n\n.about-name {\n  font-size: 48px;\n  margin-bottom: 10px;\n  font-family: 'Bungee Inline', cursive;\n}\n\n.about-description {\n  font-size: 20px;\n  margin-bottom: 10px;\n}\n\n.about-resume {\n  font-size: 18px;\n}\n\n.body-links {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive;\n}\n\n.cards {\n  border: 5px solid #292929;\n  height: 200px;\n  width: 250px;\n  margin-top: 10px;\n}\n\n\n#contact {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 10vh;\n  width: 100%;\n}\n\n.gif3 {\n  margin-bottom: 10px;\n}\n\n.footer-links {\n  height: 40px;\n  padding: 0 15px;\n}\n\n.header-contact {\n  margin-right: 10px;\n}\n\npre {\n  font-size: 20px;\n  &:hover{\n    font-size: 25px;\n    cursor: pointer;\n  }\n}\n\n.footer-links {\n  height: 55px;\n  margin: 10px;\n  &:hover{\n    height: 60px;\n    cursor: pointer;\n  }\n}\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px;\n  }\n\n  #about {\n    height: 100vh;\n  }\n\n  .about-name {\n    font-size: 80px;\n  }\n\n  .about-description {\n    font-size: 30px;\n  }\n\n  .about-resume {\n    font-size: 25px;\n  }\n\n  .code-section-description {\n   width: 60%;\n   font-size: 25px;\n  }\n\n  .cards {\n    height: 300px;\n    width: 400px;\n  }\n\n  .body-links:hover {\n    font-size: 32px;\n  }\n}\n\n@media screen and (min-width: 650px) {\n  .about-name {\n    font-size: 100px;\n  }\n\n  .about-description {\n    font-size: 40px;\n  }\n\n  .about-resume {\n    font-size: 30px;\n  }\n\n  .cards {\n    height: 400px;\n    width: 600px;\n  }\n}\n", ""]);
 
 	// exports
 
-
-/***/ },
-/* 480 */
-/***/ function(module, exports) {
-
-	// const parallax = (function() {
-	//
-	//   window.onscroll = function(){
-	//     var parallax = document.getElementById("#parallax"),
-	//     speed = 0.5;
-	//     console.log('I dont know if this works')
-	//       var windowYOffset = window.pageYOffset,
-	//           setBackgroundPosition = "50% " + (windowYOffset * speed) + "px";
-	//       parallax.style.backgroundPosition = setBackgroundPosition
-	//     }
-	//
-	// })();
-	//
-	// export default parallax;
-	"use strict";
 
 /***/ }
 /******/ ]);
