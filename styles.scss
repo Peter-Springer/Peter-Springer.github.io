@@ -81,9 +81,6 @@ a {
 .body-links {
   color: #0e2045;
   font-family: 'Bungee Inline', cursive;
-  &:hover{
-    font-size: 35px;
-  }
 }
 
 .cards {
@@ -116,6 +113,23 @@ a {
   margin-right: 10px;
 }
 
+pre {
+  font-size: 20px;
+  &:hover{
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+.footer-links {
+  height: 55px;
+  margin: 10px;
+  &:hover{
+    height: 60px;
+    cursor: pointer;
+  }
+}
+
 @media screen and (min-width: 500px) {
   .header {
     font-size: 20px;
@@ -126,7 +140,35 @@ a {
   }
 
   .about-name {
-    font-size: 120px;
+    font-size: 80px;
+  }
+
+  .about-description {
+    font-size: 30px;
+  }
+
+  .about-resume {
+    font-size: 25px;
+  }
+
+  .code-section-description {
+   width: 60%;
+   font-size: 25px;
+  }
+
+  .cards {
+    height: 300px;
+    width: 400px;
+  }
+
+  .body-links:hover {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .about-name {
+    font-size: 100px;
   }
 
   .about-description {
@@ -134,33 +176,11 @@ a {
   }
 
   .about-resume {
-    font-size: 35px;
-  }
-
-  .code-section-description {
     font-size: 30px;
-    margin: 10px;
   }
 
   .cards {
     height: 400px;
     width: 600px;
-  }
-
-  pre {
-    font-size: 20px;
-    &:hover{
-      font-size: 25px;
-      cursor: pointer;
-    }
-  }
-
-  .footer-links {
-    height: 55px;
-    margin: 10px;
-    &:hover{
-      height: 60px;
-      cursor: pointer;
-    }
   }
 }
