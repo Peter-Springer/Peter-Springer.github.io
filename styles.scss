@@ -81,6 +81,9 @@ a {
 .body-links {
   color: #0e2045;
   font-family: 'Bungee Inline', cursive;
+  &:hover {
+    font-size: 32px;
+  }
 }
 
 .cards {
@@ -159,10 +162,6 @@ pre {
   .cards {
     height: 300px;
     width: 400px;
-  }
-
-  .body-links:hover {
-    font-size: 32px;
   }
 }
 
