@@ -28,7 +28,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: bold;
-  font-size: 12px;
+  // font-size: 2px;
 }
 
 a {
@@ -108,7 +108,7 @@ a {
 }
 
 .footer-links {
-  height: 35px;
+  height: 32px;
   padding: 0 15px;
 }
 
@@ -117,7 +117,7 @@ a {
 }
 
 pre {
-  font-size: 20px;
+  font-size: 12px;
   &:hover{
     font-size: 25px;
     cursor: pointer;
@@ -162,6 +162,10 @@ pre {
   .cards {
     height: 300px;
     width: 400px;
+  }
+
+  pre {
+    font-size: 20px;
   }
 }
 
