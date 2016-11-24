@@ -98,7 +98,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #292929;
-  height: 10vh;
+  height: 11vh;
   width: 100%;
 }
 
@@ -107,7 +107,7 @@ a {
 }
 
 .footer-links {
-  height: 25px;
+  height: 30px;
   padding: 0 15px;
 }
 
@@ -117,10 +117,6 @@ a {
 
 pre {
   font-size: 12px;
-  &:hover{
-    font-size: 25px;
-    cursor: pointer;
-  }
 }
 
 .footer-links {
@@ -165,6 +161,10 @@ pre {
 
   pre {
     font-size: 20px;
+    &:hover{
+      font-size: 25px;
+      cursor: pointer;
+    }
   }
 }
 
