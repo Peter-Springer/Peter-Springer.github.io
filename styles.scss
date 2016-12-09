@@ -36,6 +36,15 @@ body {
   font-weight: bold;
 }
 
+.code-sample {
+  display: flex;
+  flex-direction: row;
+}
+
+.code-sample-info {
+ margin: 20px;
+}
+
 a {
   text-decoration: none;
   color: #f7484e;
@@ -89,8 +98,8 @@ a {
 
 .cards {
   border: 5px solid #292929;
-  height: 200px;
-  width: 250px;
+  height: 100px;
+  width: 150px;
   margin-top: 10px;
 }
 
@@ -175,7 +184,8 @@ pre {
   }
 
   .about-description {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 100;
   }
 
   .about-resume {
