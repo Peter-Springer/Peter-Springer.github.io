@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+.header-container a {
+  &:hover{
+    color: white;
+  }
+}
+
 .header {
  font-size: 12px;
  font-weight: bold;
@@ -69,12 +75,8 @@ a {
 }
 
 .about-description {
-  font-size: 20px;
   margin-bottom: 10px;
-}
-
-.about-resume {
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .body-links {
@@ -111,7 +113,7 @@ a {
   padding: 0 15px;
 }
 
-.header-contact {
+.header-resume {
   margin-right: 10px;
 }
 
@@ -162,7 +164,6 @@ pre {
   pre {
     font-size: 20px;
     &:hover{
-      font-size: 25px;
       cursor: pointer;
     }
   }
