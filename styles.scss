@@ -42,8 +42,42 @@ body {
 }
 
 .code-sample-info {
- margin: 10px 40px;
+ // margin-top: 10px;
+ margin-top: 18px;
+ margin-right: 35px;
+ text-align: center;
+ color: white;
 }
+
+.code-sample-info-chat {
+ margin-left: 35px;
+ margin-top: 10px;
+ text-align: center;
+ color: white;
+}
+
+.code-sample-info p {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top: 5px;
+  // margin: 10px 0;
+}
+
+.code-sample-info-chat p {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top: 5px;
+  // margin: 10px 0;
+}
+
+li {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+// .code-sample-info ul {
+//   text-align: center;
+// }
 
 a {
   text-decoration: none;
@@ -66,7 +100,13 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d1d1d1;
+  background-color: #292929;
+}
+
+.code-header {
+  font-size: 20px;
+  color: white;
+  margin: 10px 0;
 }
 
 .code-section-description {
@@ -97,15 +137,15 @@ a {
 }
 
 .cards {
-  border: 5px solid #292929;
-  height: 100px;
-  width: 150px;
+  height: 130px;
+  width: 140px;
   margin-top: 10px;
 }
 
 .card-headers {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
+  color: #f7484e;
 }
 
 
@@ -166,7 +206,7 @@ pre {
   }
 
   .code-section-description {
-   width: 60%;
+  //  width: 60%;
    font-size: 25px;
   }
 
