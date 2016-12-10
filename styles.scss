@@ -42,7 +42,6 @@ body {
 }
 
 .code-sample-info {
- // margin-top: 10px;
  margin-top: 18px;
  margin-right: 35px;
  text-align: center;
@@ -60,24 +59,18 @@ body {
   text-decoration: underline;
   font-size: 15px;
   margin-top: 5px;
-  // margin: 10px 0;
 }
 
 .code-sample-info-chat p {
   text-decoration: underline;
   font-size: 15px;
   margin-top: 5px;
-  // margin: 10px 0;
 }
 
 li {
   margin-top: 2px;
   font-size: 12px;
 }
-
-// .code-sample-info ul {
-//   text-align: center;
-// }
 
 a {
   text-decoration: none;
@@ -140,6 +133,7 @@ a {
   height: 130px;
   width: 140px;
   margin-top: 10px;
+  border: 2px solid white;
 }
 
 .card-headers {
@@ -206,7 +200,6 @@ pre {
   }
 
   .code-section-description {
-  //  width: 60%;
    font-size: 25px;
   }
 
@@ -242,7 +235,36 @@ pre {
     width: 350px;
   }
 
+  .card-headers {
+    font-size: 30px;
+  }
+
   .code-sample-info {
-  //  margin: 50px 80px;
+    margin-top: 18px;
+    margin-right: 110px;
+    margin-left: 120px;
+  }
+
+  .code-sample-info-chat {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  .code-sample-info p {
+    font-size: 25px;
+  }
+
+  .code-sample-info-chat p {
+    font-size: 25px;
+  }
+
+  li {
+    margin-top: 2px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .code-header {
+    font-size: 50px;
   }
 }
