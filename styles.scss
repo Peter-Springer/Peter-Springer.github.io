@@ -82,7 +82,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
   background-color: #6b849a;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -94,6 +94,40 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #292929;
+}
+
+#contact {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #6b849a;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // width: 50%;
+  // text-align: center;
+}
+
+input {
+  width: 50px;
+}
+
+textarea {
+  width: 50px;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px 0;
 }
 
 .code-header {
@@ -143,7 +177,7 @@ a {
 }
 
 
-#contact {
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
