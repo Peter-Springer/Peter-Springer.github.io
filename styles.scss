@@ -98,10 +98,8 @@ a {
 
 #contact {
   display: flex;
-  // justify-content: center;
-  // align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 60vh;
   background-color: #6b849a;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -112,22 +110,41 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // width: 50%;
-  // text-align: center;
 }
 
 input {
-  width: 50px;
+  margin: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
 }
 
 textarea {
-  width: 50px;
+  font-size: 20px;
+  height: 100px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.submit:disabled {
+  opacity: 0.2;
 }
 
 .contact-header {
   text-align: center;
-  font-size: 50px;
-  margin: 10px 0;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .code-header {
@@ -300,5 +317,38 @@ pre {
 
   .code-header {
     font-size: 50px;
+  }
+
+  input {
+    margin: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  textarea {
+    font-size: 30px;
+    height: 100px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .submit {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .submit:disabled {
+    opacity: 0.2;
+  }
+
+  .contact-header {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
