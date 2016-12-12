@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+.header-container a {
+  &:hover{
+    color: white;
+  }
+}
+
 .header {
  font-size: 12px;
  font-weight: bold;
@@ -30,6 +36,42 @@ body {
   font-weight: bold;
 }
 
+.code-sample {
+  display: flex;
+  flex-direction: row;
+}
+
+.code-sample-info {
+ margin-top: 18px;
+ margin-right: 35px;
+ text-align: center;
+ color: white;
+}
+
+.code-sample-info-chat {
+ margin-left: 35px;
+ margin-top: 10px;
+ text-align: center;
+ color: white;
+}
+
+.code-sample-info p {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.code-sample-info-chat p {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+li {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
 a {
   text-decoration: none;
   color: #f7484e;
@@ -40,7 +82,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
   background-color: #6b849a;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -51,7 +93,64 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d1d1d1;
+  background-color: #292929;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background-color: #6b849a;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+textarea {
+  font-size: 20px;
+  height: 100px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.submit:disabled {
+  opacity: 0.2;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.code-header {
+  font-size: 20px;
+  color: white;
+  margin: 10px 0;
 }
 
 .code-section-description {
@@ -69,12 +168,8 @@ a {
 }
 
 .about-description {
-  font-size: 20px;
   margin-bottom: 10px;
-}
-
-.about-resume {
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .body-links {
@@ -86,14 +181,20 @@ a {
 }
 
 .cards {
-  border: 5px solid #292929;
-  height: 200px;
-  width: 250px;
+  height: 130px;
+  width: 140px;
   margin-top: 10px;
+  border: 2px solid white;
+}
+
+.card-headers {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f7484e;
 }
 
 
-#contact {
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +212,7 @@ a {
   padding: 0 15px;
 }
 
-.header-contact {
+.header-resume {
   margin-right: 10px;
 }
 
@@ -150,7 +251,6 @@ pre {
   }
 
   .code-section-description {
-   width: 60%;
    font-size: 25px;
   }
 
@@ -162,7 +262,6 @@ pre {
   pre {
     font-size: 20px;
     &:hover{
-      font-size: 25px;
       cursor: pointer;
     }
   }
@@ -174,7 +273,8 @@ pre {
   }
 
   .about-description {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 100;
   }
 
   .about-resume {
@@ -182,7 +282,73 @@ pre {
   }
 
   .cards {
-    height: 400px;
-    width: 600px;
+    height: 250px;
+    width: 350px;
+  }
+
+  .card-headers {
+    font-size: 30px;
+  }
+
+  .code-sample-info {
+    margin-top: 18px;
+    margin-right: 110px;
+    margin-left: 120px;
+  }
+
+  .code-sample-info-chat {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  .code-sample-info p {
+    font-size: 25px;
+  }
+
+  .code-sample-info-chat p {
+    font-size: 25px;
+  }
+
+  li {
+    margin-top: 2px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .code-header {
+    font-size: 50px;
+  }
+
+  input {
+    margin: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  textarea {
+    font-size: 30px;
+    height: 100px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .submit {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .submit:disabled {
+    opacity: 0.2;
+  }
+
+  .contact-header {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
