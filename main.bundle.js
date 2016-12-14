@@ -12397,7 +12397,68 @@
 	        _react2.default.createElement(
 	          "h1",
 	          { className: "code-header" },
-	          "CODE"
+	          "Code"
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "code-sample" },
+	          _react2.default.createElement(
+	            "a",
+	            { target: "_blank", href: "https://shoot-the-breeze-aa5d9.firebaseapp.com/" },
+	            _react2.default.createElement("img", { className: "cards", src: "../img/notes.gif" })
+	          ),
+	          _react2.default.createElement(
+	            "article",
+	            { className: "code-sample-info-chat" },
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://github.com/Peter-Springer/Shoot-The-Breeze" },
+	              _react2.default.createElement(
+	                "h1",
+	                { className: "card-headers" },
+	                "ELECTRON NOTES"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Tech Stack"
+	            ),
+	            _react2.default.createElement(
+	              "ul",
+	              null,
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Electron"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Vue"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "CSS"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "SQL"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Spectron"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Webpack"
+	              )
+	            )
+	          )
 	        ),
 	        _react2.default.createElement(
 	          "section",
@@ -12775,7 +12836,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: 'contact-header' },
-	          'Contact Me'
+	          'Contact me'
 	        ),
 	        _react2.default.createElement(
 	          'form',
@@ -12786,15 +12847,15 @@
 	          _react2.default.createElement('input', { onKeyUp: function onKeyUp(e) {
 	              return _this2.nameField(e);
 	            }, className: 'name',
-	            placeholder: 'name', type: 'text', name: 'name' }),
+	            placeholder: 'name*', type: 'text', name: 'name' }),
 	          _react2.default.createElement('input', { onKeyUp: function onKeyUp(e) {
 	              return _this2.emailField(e);
 	            }, className: 'email',
-	            placeholder: 'email', type: 'email', name: '_replyto' }),
+	            placeholder: 'email*', type: 'email', name: '_replyto' }),
 	          _react2.default.createElement('textarea', { onKeyUp: function onKeyUp(e) {
 	              return _this2.messageField(e);
 	            }, className: 'message',
-	            placeholder: 'message', type: 'text', name: 'message' }),
+	            placeholder: 'message*', type: 'text', name: 'message' }),
 	          _react2.default.createElement('input', { className: 'submit', type: 'submit', value: 'Send',
 	            disabled: this.enableSubmit() })
 	        )
@@ -30381,7 +30442,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif; }\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%; }\n\n.header-container a:hover {\n  color: white; }\n\n.header {\n  font-size: 12px;\n  font-weight: bold;\n  margin-left: 10px; }\n\n.header-springer, .header-slash {\n  color: #eee6e1; }\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold; }\n\n.code-sample {\n  display: flex;\n  flex-direction: row; }\n\n.code-sample-info {\n  margin-top: 18px;\n  margin-right: 35px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info-chat {\n  margin-left: 35px;\n  margin-top: 10px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin-top: 5px; }\n\n.code-sample-info-chat p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin-top: 5px; }\n\nli {\n  margin-top: 2px;\n  font-size: 12px; }\n\na {\n  text-decoration: none;\n  color: #f7484e; }\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 80vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\n#code {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929; }\n\n#contact {\n  display: flex;\n  flex-direction: column;\n  height: 60vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center; }\n\ninput {\n  margin: 15px;\n  font-size: 20px;\n  border: none;\n  border-radius: 10px;\n  outline: none; }\n\ntextarea {\n  font-size: 20px;\n  height: 100px;\n  border: none;\n  margin-top: 15px;\n  margin-bottom: 10px;\n  border-radius: 10px;\n  outline: none; }\n\n.submit {\n  padding: 10px;\n  border-radius: 10px;\n  background-color: white; }\n\n.submit:disabled {\n  opacity: 0.2; }\n\n.contact-header {\n  text-align: center;\n  font-size: 20px;\n  margin-top: 10px;\n  margin-bottom: 20px; }\n\n.code-header {\n  font-size: 20px;\n  color: white;\n  margin: 10px 0; }\n\n.code-section-description {\n  font-size: 16px;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  margin-top: 10px;\n  font-weight: bold; }\n\n.about-name {\n  font-size: 48px;\n  margin-bottom: 10px;\n  font-family: 'Bungee Inline', cursive; }\n\n.about-description {\n  margin-bottom: 10px;\n  font-family: 'Roboto', sans-serif; }\n\n.body-links {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive; }\n  .body-links:hover {\n    font-size: 32px; }\n\n.cards {\n  height: 130px;\n  width: 140px;\n  margin-top: 10px;\n  border: 2px solid white; }\n\n.card-headers {\n  font-size: 15px;\n  font-weight: bold;\n  color: #f7484e; }\n\n#footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 11vh;\n  width: 100%; }\n\n.gif3 {\n  margin-bottom: 10px; }\n\n.footer-links {\n  height: 30px;\n  padding: 0 15px; }\n\n.header-resume {\n  margin-right: 10px; }\n\npre {\n  font-size: 12px; }\n\n.footer-links {\n  height: 55px;\n  margin: 10px; }\n  .footer-links:hover {\n    height: 60px;\n    cursor: pointer; }\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px; }\n  #about {\n    height: 100vh; }\n  .about-name {\n    font-size: 80px; }\n  .about-description {\n    font-size: 30px; }\n  .about-resume {\n    font-size: 25px; }\n  .code-section-description {\n    font-size: 25px; }\n  .cards {\n    height: 300px;\n    width: 400px; }\n  pre {\n    font-size: 20px; }\n    pre:hover {\n      cursor: pointer; } }\n\n@media screen and (min-width: 650px) {\n  .about-name {\n    font-size: 100px; }\n  .about-description {\n    font-size: 30px;\n    font-weight: 100; }\n  .about-resume {\n    font-size: 30px; }\n  .cards {\n    height: 250px;\n    width: 350px; }\n  .card-headers {\n    font-size: 30px; }\n  .code-sample-info {\n    margin-top: 18px;\n    margin-right: 110px;\n    margin-left: 120px; }\n  .code-sample-info-chat {\n    margin-left: 100px;\n    margin-top: 10px; }\n  .code-sample-info p {\n    font-size: 25px; }\n  .code-sample-info-chat p {\n    font-size: 25px; }\n  li {\n    margin-top: 2px;\n    font-size: 20px;\n    text-align: center; }\n  .code-header {\n    font-size: 50px; }\n  input {\n    margin: 15px;\n    font-size: 30px;\n    border: none;\n    border-radius: 10px; }\n  textarea {\n    font-size: 30px;\n    height: 100px;\n    border: none;\n    margin-top: 15px;\n    margin-bottom: 10px;\n    border-radius: 10px; }\n  .contact-header {\n    text-align: center;\n    font-size: 50px;\n    margin-top: 10px;\n    margin-bottom: 20px; } }\n", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif; }\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%; }\n\n.header-container a:hover {\n  color: white; }\n\n.header {\n  font-size: 12px;\n  font-weight: bold;\n  margin-left: 10px; }\n\n.header-springer, .header-slash {\n  color: #eee6e1; }\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold; }\n\n.code-sample {\n  display: flex;\n  flex-direction: row; }\n\n.code-sample-info {\n  margin-top: 18px;\n  margin-right: 35px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info-chat {\n  margin-left: 35px;\n  margin-top: 10px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin-top: 5px; }\n\n.code-sample-info-chat p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin-top: 5px; }\n\nli {\n  margin-top: 2px;\n  font-size: 12px; }\n\na {\n  text-decoration: none;\n  color: #f7484e; }\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 80vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\n#code {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929; }\n\n#contact {\n  display: flex;\n  flex-direction: column;\n  height: 60vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center; }\n\ninput {\n  margin: 15px;\n  font-size: 20px;\n  border: none;\n  outline: none; }\n\ntextarea {\n  font-size: 20px;\n  height: 100px;\n  border: none;\n  margin-top: 15px;\n  margin-bottom: 10px; }\n\n.submit {\n  padding: 10px;\n  border-radius: 10px;\n  background-color: white; }\n\n.submit:disabled {\n  opacity: 0.2; }\n\n.contact-header {\n  text-align: center;\n  font-size: 20px;\n  margin-top: 10px;\n  margin-bottom: 20px; }\n\n.code-header {\n  font-size: 20px;\n  color: white;\n  margin: 30px 0; }\n\n.code-section-description {\n  font-size: 16px;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  margin-top: 10px;\n  font-weight: bold; }\n\n.about-name {\n  font-size: 48px;\n  margin-bottom: 10px;\n  font-family: 'Bungee Inline', cursive; }\n\n.about-description {\n  margin-bottom: 10px;\n  font-family: 'Roboto', sans-serif; }\n\n.body-links {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive; }\n  .body-links:hover {\n    font-size: 32px; }\n\n.cards {\n  height: 130px;\n  width: 140px;\n  margin-top: 10px;\n  border: 2px solid white; }\n\n.card-headers {\n  font-size: 15px;\n  font-weight: bold;\n  color: #f7484e; }\n\n#footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 11vh;\n  width: 100%; }\n\n.gif3 {\n  margin-bottom: 30px; }\n\n.footer-links {\n  height: 30px;\n  padding: 0 15px; }\n\n.header-resume {\n  margin-right: 10px; }\n\npre {\n  font-size: 12px; }\n\n.footer-links {\n  height: 55px;\n  margin: 10px; }\n  .footer-links:hover {\n    height: 60px;\n    cursor: pointer; }\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px; }\n  #about {\n    height: 100vh; }\n  .about-name {\n    font-size: 80px; }\n  .about-description {\n    font-size: 30px; }\n  .about-resume {\n    font-size: 25px; }\n  .code-section-description {\n    font-size: 25px; }\n  .cards {\n    height: 300px;\n    width: 400px; }\n  pre {\n    font-size: 20px; }\n    pre:hover {\n      cursor: pointer; } }\n\n@media screen and (min-width: 650px) {\n  .about-name {\n    font-size: 100px; }\n  .about-description {\n    font-size: 30px;\n    font-weight: 100; }\n  .about-resume {\n    font-size: 30px; }\n  .cards {\n    height: 250px;\n    width: 350px; }\n  .card-headers {\n    font-size: 30px; }\n  .code-sample-info {\n    margin-top: 18px;\n    margin-right: 110px;\n    margin-left: 120px; }\n  .code-sample-info-chat {\n    margin-left: 100px;\n    margin-top: 10px; }\n  .code-sample-info p {\n    font-size: 25px; }\n  .code-sample-info-chat p {\n    font-size: 25px; }\n  li {\n    margin-top: 2px;\n    font-size: 20px;\n    text-align: center; }\n  .code-header {\n    font-size: 50px; }\n  input {\n    font-size: 30px;\n    border: none; }\n  textarea {\n    font-size: 30px;\n    height: 100px;\n    border: none;\n    margin-top: 15px;\n    margin-bottom: 10px; }\n  .contact-header {\n    text-align: center;\n    font-size: 50px;\n    margin-top: 30px;\n    margin-bottom: 20px; } }\n", ""]);
 
 	// exports
 
