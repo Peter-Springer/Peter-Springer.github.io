@@ -12402,17 +12402,13 @@
 	        _react2.default.createElement(
 	          "section",
 	          { className: "code-sample" },
-	          _react2.default.createElement(
-	            "a",
-	            { target: "_blank", href: "https://shoot-the-breeze-aa5d9.firebaseapp.com/" },
-	            _react2.default.createElement("img", { className: "cards", src: "../img/notes.gif" })
-	          ),
+	          _react2.default.createElement("img", { className: "cards", src: "../img/notes.gif" }),
 	          _react2.default.createElement(
 	            "article",
 	            { className: "code-sample-info-chat" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "https://github.com/Peter-Springer/Shoot-The-Breeze" },
+	              { target: "_blank", href: "https://github.com/Peter-Springer/electron-project" },
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "card-headers" },
@@ -12468,7 +12464,7 @@
 	            { className: "code-sample-info" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "https://github.com/Peter-Springer/game-time" },
+	              { target: "_blank", href: "http://peterspringer.net/game-time" },
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "card-headers" },
@@ -12580,7 +12576,7 @@
 	            { className: "code-sample-info" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "https://github.com/Peter-Springer/pomodoro-app" },
+	              { target: "_blank", href: "http://peterspringer.net/pomodoro-app" },
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "card-headers" },
