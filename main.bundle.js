@@ -12464,7 +12464,7 @@
 	            { className: "code-sample-info" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "http://peterspringer.net/game-time" },
+	              { target: "_blank", href: "https://github.com/Peter-Springer/game-time" },
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "card-headers" },
@@ -12513,7 +12513,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { target: "_blank", href: "https://peter-springer.github.io/game-time/" },
+	            { target: "_blank", href: "http://peterspringer.net/game-time" },
 	            _react2.default.createElement("img", { className: "cards", src: "../img/breakout.gif" })
 	          )
 	        ),
@@ -12576,7 +12576,7 @@
 	            { className: "code-sample-info" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "http://peterspringer.net/pomodoro-app" },
+	              { target: "_blank", href: "https://github.com/Peter-Springer/pomodoro-app" },
 	              _react2.default.createElement(
 	                "h1",
 	                { className: "card-headers" },
@@ -12620,7 +12620,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { target: "_blank", href: "https://peter-springer.github.io/pomodoro-app/" },
+	            { target: "_blank", href: "http://peterspringer.net/pomodoro-app" },
 	            _react2.default.createElement("img", { className: "cards gif3", src: "../img/pomodoro.gif" })
 	          )
 	        )
