@@ -25,6 +25,7 @@ body {
 
 .header-springer, .header-slash {
  color: #eee6e1;
+ background-color: #292929;
 }
 
 .header-nav {
@@ -77,6 +78,7 @@ li {
 a {
   text-decoration: none;
   color: #f7484e;
+  background-color: #292929;
 }
 
 #about {
@@ -121,6 +123,7 @@ input {
   outline: none;
   padding: 10px;
   width: 200px;
+  color: black;
 }
 
 textarea {
@@ -132,6 +135,7 @@ textarea {
   padding: 10px;
   outline: none;
   width: 200px;
+  color: black;
 }
 
 .submit {
