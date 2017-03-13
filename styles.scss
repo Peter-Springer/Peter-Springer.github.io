@@ -44,7 +44,7 @@ body {
 }
 
 .code-sample-info {
- margin-top: 18px;
+ margin-top: 100px;
  margin-left: 50px;
  margin-right: 50px;
  text-align: center;
@@ -53,15 +53,15 @@ body {
 
 .code-sample-info-chat {
   margin-left: 40px;
- margin-top: 10px;
- text-align: center;
- color: white;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
 }
 
 .code-sample-info p {
   text-decoration: underline;
   font-size: 15px;
-  margin: 10px 0;
+  // margin: 10px 0;
 }
 
 .code-sample-info-chat p {
@@ -202,6 +202,11 @@ textarea {
   width: 140px;
   margin-top: 10px;
   border: 2px solid white;
+  // background-blend-mode: multiply;
+  transition: all 0.75s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .card-headers {
@@ -223,7 +228,7 @@ textarea {
   width: 100%;
 }
 
-.gif3 {
+.gif5 {
   margin-bottom: 90px;
 }
 
