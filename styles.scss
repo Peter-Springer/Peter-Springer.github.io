@@ -40,12 +40,11 @@ body {
 .code-sample {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .code-sample-info {
- margin-top: 100px;
- margin-left: 50px;
+ margin-top: 10px;
  margin-right: 50px;
  text-align: center;
  color: white;
@@ -240,7 +239,11 @@ textarea {
   margin-right: 10px;
 }
 
-pre {
+.header-links {
+  font-size: 12px;
+}
+
+.header-slash {
   font-size: 12px;
 }
 
@@ -286,11 +289,14 @@ pre {
     width: 400px;
   }
 
-  pre {
+  .header-links {
     font-size: 20px;
     &:hover{
       cursor: pointer;
     }
+  }
+  .header-slash {
+    font-size: 20px;
   }
 }
 

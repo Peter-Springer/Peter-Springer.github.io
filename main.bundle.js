@@ -12309,41 +12309,29 @@
 	          "nav",
 	          { className: "header-nav" },
 	          _react2.default.createElement(
-	            "pre",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#code" },
-	              "CODE "
-	            ),
-	            _react2.default.createElement(
-	              "span",
-	              { className: "header-slash" },
-	              "/"
-	            )
+	            "a",
+	            { className: "header-links", href: "#code" },
+	            "CODE "
 	          ),
 	          _react2.default.createElement(
-	            "pre",
-	            { className: "header-contact" },
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#contact" },
-	              " CONTACT "
-	            ),
-	            _react2.default.createElement(
-	              "span",
-	              { className: "header-slash" },
-	              "/ "
-	            )
+	            "span",
+	            { className: "header-slash" },
+	            "/"
 	          ),
 	          _react2.default.createElement(
-	            "pre",
-	            { className: "header-resume" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://resume.creddle.io/resume/91i1d3h8h5p" },
-	              "RESUME"
-	            )
+	            "a",
+	            { className: "header-links", href: "#contact" },
+	            " CONTACT "
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            { className: "header-slash" },
+	            "/ "
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { className: "header-links header-resume", target: "_blank", href: "https://resume.creddle.io/resume/91i1d3h8h5p" },
+	            "RESUME"
 	          )
 	        )
 	      );
@@ -50938,7 +50926,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif; }\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%; }\n\n.header-container a:hover {\n  color: white; }\n\n.header {\n  font-size: 12px;\n  font-weight: bold;\n  margin-left: 10px; }\n\n.header-springer, .header-slash {\n  color: #eee6e1;\n  background-color: #292929; }\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold; }\n\n.code-sample {\n  display: flex;\n  flex-direction: row;\n  margin-top: 50px; }\n\n.code-sample-info {\n  margin-top: 100px;\n  margin-left: 50px;\n  margin-right: 50px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info-chat {\n  margin-left: 40px;\n  margin-top: 10px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin: 10px 0; }\n\n.code-sample-info-chat p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin: 10px 0; }\n\nli {\n  margin-top: 2px;\n  font-size: 12px; }\n\na {\n  text-decoration: none;\n  color: #f7484e;\n  background-color: #292929; }\n  a:hover {\n    text-decoration: none; }\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 80vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\n#code {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929; }\n\n#contact {\n  display: flex;\n  flex-direction: column;\n  height: 60vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center; }\n\ninput {\n  margin: 15px;\n  font-size: 20px;\n  border: none;\n  outline: none;\n  padding: 10px;\n  width: 200px;\n  color: black; }\n\ntextarea {\n  font-size: 16px;\n  height: 100px;\n  border: none;\n  margin-top: 15px;\n  margin-bottom: 10px;\n  padding: 10px;\n  outline: none;\n  width: 200px;\n  color: black; }\n\n.submit {\n  padding: 10px;\n  border-radius: 10px;\n  background-color: white;\n  color: #292929;\n  width: 100px;\n  font-size: 20px;\n  border: none; }\n\n.submit:disabled {\n  opacity: 0.2; }\n\n.contact-header {\n  text-align: center;\n  font-size: 20px;\n  margin-top: 10px;\n  margin-bottom: 20px;\n  font-family: 'Space Mono', sans-serif; }\n\n.code-header {\n  font-size: 20px;\n  color: white;\n  margin-top: 20px;\n  font-family: 'Space Mono', sans-serif; }\n\n.code-section-description {\n  font-size: 16px;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  margin-top: 10px;\n  font-weight: bold; }\n\n.about-name {\n  font-size: 48px;\n  margin-bottom: 10px;\n  font-family: 'Bungee Inline', cursive; }\n\n.about-description {\n  margin-bottom: 10px;\n  font-family: 'Roboto', sans-serif; }\n\n.body-links {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive; }\n  .body-links:hover {\n    font-size: 32px; }\n\n.cards {\n  height: 130px;\n  width: 140px;\n  margin-top: 10px;\n  border: 2px solid white;\n  transition: all 0.75s; }\n  .cards:hover {\n    transform: scale(1.1); }\n\n.card-headers {\n  font-size: 15px;\n  font-weight: bold;\n  color: #f7484e; }\n  .card-headers:hover {\n    color: white; }\n\n#footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 11vh;\n  width: 100%; }\n\n.gif5 {\n  margin-bottom: 90px; }\n\n.footer-links {\n  height: 30px;\n  padding: 0 15px; }\n\n.header-resume {\n  margin-right: 10px; }\n\npre {\n  font-size: 12px; }\n\n.footer-links {\n  height: 55px;\n  margin: 10px; }\n  .footer-links:hover {\n    cursor: pointer; }\n\n.contact-modal {\n  text-align: center; }\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px; }\n  #about {\n    height: 90vh; }\n  .about-name {\n    font-size: 80px; }\n  .about-description {\n    font-size: 30px; }\n  .about-resume {\n    font-size: 25px; }\n  .code-section-description {\n    font-size: 25px; }\n  .cards {\n    height: 300px;\n    width: 400px; }\n  pre {\n    font-size: 20px; }\n    pre:hover {\n      cursor: pointer; } }\n\n@media screen and (min-width: 650px) {\n  .about-name {\n    font-size: 100px; }\n  .about-description {\n    font-size: 30px;\n    font-weight: 100; }\n  .about-resume {\n    font-size: 30px; }\n  .cards {\n    height: 250px;\n    width: 350px; }\n  .card-headers {\n    font-size: 30px; }\n  .code-sample-info {\n    margin-top: 18px;\n    margin-right: 110px;\n    margin-left: 120px; }\n  .code-sample-info-chat {\n    margin-left: 100px;\n    margin-top: 10px; }\n  .code-sample-info p {\n    font-size: 25px; }\n  .code-sample-info-chat p {\n    font-size: 25px; }\n  li {\n    margin-top: 2px;\n    font-size: 20px;\n    text-align: center; }\n  .code-header {\n    font-size: 50px;\n    margin: 45px 0; }\n  input {\n    font-size: 22px;\n    border: none;\n    width: 320px; }\n  textarea {\n    font-size: 20px;\n    height: 100px;\n    border: none;\n    margin-top: 15px;\n    margin-bottom: 10px;\n    width: 320px; }\n  .contact-header {\n    text-align: center;\n    font-size: 50px;\n    margin-top: 30px;\n    margin-bottom: 20px; } }\n", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Roboto', sans-serif; }\n\n.header-container {\n  background-color: #292929;\n  height: 10vh;\n  display: flex;\n  align-items: center;\n  color: #f7484e;\n  width: 100%; }\n\n.header-container a:hover {\n  color: white; }\n\n.header {\n  font-size: 12px;\n  font-weight: bold;\n  margin-left: 10px; }\n\n.header-springer, .header-slash {\n  color: #eee6e1;\n  background-color: #292929; }\n\n.header-nav {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: flex-end;\n  align-items: flex-end;\n  font-weight: bold; }\n\n.code-sample {\n  display: flex;\n  flex-direction: row;\n  margin-top: 20px; }\n\n.code-sample-info {\n  margin-top: 10px;\n  margin-right: 50px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info-chat {\n  margin-left: 40px;\n  margin-top: 10px;\n  text-align: center;\n  color: white; }\n\n.code-sample-info p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin: 10px 0; }\n\n.code-sample-info-chat p {\n  text-decoration: underline;\n  font-size: 15px;\n  margin: 10px 0; }\n\nli {\n  margin-top: 2px;\n  font-size: 12px; }\n\na {\n  text-decoration: none;\n  color: #f7484e;\n  background-color: #292929; }\n  a:hover {\n    text-decoration: none; }\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 80vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\n#code {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929; }\n\n#contact {\n  display: flex;\n  flex-direction: column;\n  height: 60vh;\n  background-color: #6b849a;\n  font-family: 'Roboto', sans-serif;\n  color: white; }\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center; }\n\ninput {\n  margin: 15px;\n  font-size: 20px;\n  border: none;\n  outline: none;\n  padding: 10px;\n  width: 200px;\n  color: black; }\n\ntextarea {\n  font-size: 16px;\n  height: 100px;\n  border: none;\n  margin-top: 15px;\n  margin-bottom: 10px;\n  padding: 10px;\n  outline: none;\n  width: 200px;\n  color: black; }\n\n.submit {\n  padding: 10px;\n  border-radius: 10px;\n  background-color: white;\n  color: #292929;\n  width: 100px;\n  font-size: 20px;\n  border: none; }\n\n.submit:disabled {\n  opacity: 0.2; }\n\n.contact-header {\n  text-align: center;\n  font-size: 20px;\n  margin-top: 10px;\n  margin-bottom: 20px;\n  font-family: 'Space Mono', sans-serif; }\n\n.code-header {\n  font-size: 20px;\n  color: white;\n  margin-top: 20px;\n  font-family: 'Space Mono', sans-serif; }\n\n.code-section-description {\n  font-size: 16px;\n  font-family: 'Roboto', sans-serif;\n  text-align: center;\n  margin-top: 10px;\n  font-weight: bold; }\n\n.about-name {\n  font-size: 48px;\n  margin-bottom: 10px;\n  font-family: 'Bungee Inline', cursive; }\n\n.about-description {\n  margin-bottom: 10px;\n  font-family: 'Roboto', sans-serif; }\n\n.body-links {\n  color: #0e2045;\n  font-family: 'Bungee Inline', cursive; }\n  .body-links:hover {\n    font-size: 32px; }\n\n.cards {\n  height: 130px;\n  width: 140px;\n  margin-top: 10px;\n  border: 2px solid white;\n  transition: all 0.75s; }\n  .cards:hover {\n    transform: scale(1.1); }\n\n.card-headers {\n  font-size: 15px;\n  font-weight: bold;\n  color: #f7484e; }\n  .card-headers:hover {\n    color: white; }\n\n#footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #292929;\n  height: 11vh;\n  width: 100%; }\n\n.gif5 {\n  margin-bottom: 90px; }\n\n.footer-links {\n  height: 30px;\n  padding: 0 15px; }\n\n.header-resume {\n  margin-right: 10px; }\n\n.header-links {\n  font-size: 12px; }\n\n.header-slash {\n  font-size: 12px; }\n\n.footer-links {\n  height: 55px;\n  margin: 10px; }\n  .footer-links:hover {\n    cursor: pointer; }\n\n.contact-modal {\n  text-align: center; }\n\n@media screen and (min-width: 500px) {\n  .header {\n    font-size: 20px; }\n  #about {\n    height: 90vh; }\n  .about-name {\n    font-size: 80px; }\n  .about-description {\n    font-size: 30px; }\n  .about-resume {\n    font-size: 25px; }\n  .code-section-description {\n    font-size: 25px; }\n  .cards {\n    height: 300px;\n    width: 400px; }\n  .header-links {\n    font-size: 20px; }\n    .header-links:hover {\n      cursor: pointer; }\n  .header-slash {\n    font-size: 20px; } }\n\n@media screen and (min-width: 650px) {\n  .about-name {\n    font-size: 100px; }\n  .about-description {\n    font-size: 30px;\n    font-weight: 100; }\n  .about-resume {\n    font-size: 30px; }\n  .cards {\n    height: 250px;\n    width: 350px; }\n  .card-headers {\n    font-size: 30px; }\n  .code-sample-info {\n    margin-top: 18px;\n    margin-right: 110px;\n    margin-left: 120px; }\n  .code-sample-info-chat {\n    margin-left: 100px;\n    margin-top: 10px; }\n  .code-sample-info p {\n    font-size: 25px; }\n  .code-sample-info-chat p {\n    font-size: 25px; }\n  li {\n    margin-top: 2px;\n    font-size: 20px;\n    text-align: center; }\n  .code-header {\n    font-size: 50px;\n    margin: 45px 0; }\n  input {\n    font-size: 22px;\n    border: none;\n    width: 320px; }\n  textarea {\n    font-size: 20px;\n    height: 100px;\n    border: none;\n    margin-top: 15px;\n    margin-bottom: 10px;\n    width: 320px; }\n  .contact-header {\n    text-align: center;\n    font-size: 50px;\n    margin-top: 30px;\n    margin-bottom: 20px; } }\n", ""]);
 
 	// exports
 
